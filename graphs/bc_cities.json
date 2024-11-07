@@ -1,0 +1,47 @@
+{
+    "Tijuana": [
+        {"node": "Rosarito", "weight": 20},
+        {"node": "Tecate", "weight": 52}
+    ],
+    "Rosarito": [
+        {"node": "Tijuana", "weight": 20},
+        {"node": "Ensenada", "weight": 85}
+    ],
+    "Tecate": [
+        {"node": "Tijuana", "weight": 52},
+        {"node": "Ensenada", "weight": 100},
+        {"node": "Mexicali", "weight": 135}
+    ],
+    "Ensenada": [
+        {"node": "Rosarito", "weight": 85},
+        {"node": "Tecate", "weight": 100},
+        {"node": "San-Quintin", "weight": 185},
+        {"node": "San-Felipe", "weight": 246}
+    ],
+    "Mexicali": [
+        {"node": "Tecate", "weight": 135},
+        {"node": "San-Felipe", "weight": 197}
+    ],
+    "San-Felipe": [
+        {"node": "Mexicali", "weight": 197},
+        {"node": "Ensenada", "weight": 246}
+    ],
+    "San-Quintin": [
+        {"node": "Ensenada", "weight": 185},
+        {"node": "Guerrero-Negro", "weight": 425}
+    ],
+    "Guerrero-Negro": [
+        {"node": "San-Quintin", "weight": 425},
+        {"node": "San-Felipe", "weight": 394}
+    ],
+    "positions": {
+        "Tijuana": [7, 24],
+        "Rosarito": [5, 20],
+        "Tecate": [12, 24],
+        "Ensenada": [6, 16],
+        "Mexicali": [18, 24],
+        "San-Felipe": [18, 13],
+        "San-Quintin": [6, 8],
+        "Guerrero-Negro": [12, 1]
+    }
+}
